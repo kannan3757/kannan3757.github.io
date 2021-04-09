@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <main>
+    <head>
+        <title>Kannan-Portfolio</title>
+        
+      <link rel="stylesheet" href="resume.css">
+    </head>
+<body id="base">
+
+<h2>Hey I am Kannan</h2>
+
+
+<div id="navi">
+<a href="#" id="myBtn">Home</a>
+<a href="#" id="myBt">Skills</a>
+<a href="#" id="myB">Projects</a>
+<a href="#" id="my">Contact</a>
+<a href="#" id="m">About</a>
+</div>
+<p id="root"></p>
+<div id="id1">
+<div id="home" >
+               <img  id="pic" src="C:\Users\kanna\Downloads\circle-cropped.png" alt="image" width="200" height="200" >
+              <i id="home1">Hi I am Kannan<br>An Engineer from Anna University </i>
+              <br>
+              <div id="icon"> 
+                    <a href="https://twitter.com/Kannan30823074" target="_blank"> <img src="C:\Users\kanna\Downloads\twitter.png" alt="" width="20" height="20"></a>&nbsp;
+                    <a href="https://www.instagram.com/kannan_3757/" target="_blank"> <img src="C:\Users\kanna\Downloads\instagram.png" alt=""width="20" height="20"></a>&nbsp;
+                     <a href="https://www.facebook.com/kannan.selvam23/"target="_blank"><img src="C:\Users\kanna\Downloads\facebook.png" alt=""width="20" height="20"></a>&nbsp;
+                    </div>
+            </div>
+<div id="skills" >
+                <ul>
+                    <label for="file">HTML:</label>&nbsp;
+                    <progress id="file" value="90" max="100"> 90% </progress><br>
+                    <label for="file">CSS:</label>&nbsp;
+                    <progress id="file" value="80" max="100"> 80% </progress><br>
+                    <label for="file">Javascript:</label>&nbsp;
+                    <progress id="file" value="90" max="100"> 90% </progress><br>
+                    <label for="file">Angular Js:</label>&nbsp;
+                    <progress id="file" value="70" max="100"> 70% </progress><br>
+                    <label for="file">Python:</label>&nbsp;
+                    <progress id="file" value="70" max="100"> 70% </progress>
+                   
+                </ul>
+            </div>
+ <div id="project" >
+                <a href="https://github.com/kannan3757/js/blob/main/cricket.js" target="_blank">Cricket Game using Javascript</a>
+
+            </div>
+ <div id="contact">
+                <address>
+                   <p>Kannan</p>
+                   <p>Mobile:9003318827</p>
+                   <a href="mailto:kannans710@gmail.com">Mail</a>
+                </address>
+                <br>
+                    <a href="https://twitter.com/Kannan30823074" target="_blank"> <img src="C:\Users\kanna\Downloads\twitter.png" alt="" width="20" height="20"></a>&nbsp;
+                    <a href="https://www.instagram.com/kannan_3757/" target="_blank"> <img src="C:\Users\kanna\Downloads\instagram.png" alt=""width="20" height="20"></a>&nbsp;
+                     <a href="https://www.facebook.com/kannan.selvam23/"target="_blank"><img src="C:\Users\kanna\Downloads\facebook.png" alt=""width="20" height="20"></a>&nbsp;
+                
+                </div>
+ <div id="about">
+                    <p>Regards</p><br>
+                    <p>
+                        Passion for coding and programming and<br> had a self interest in learning new tools and technologies.  
+                    </p>
+                    <br>
+                    <a href="https://twitter.com/Kannan30823074" target="_blank"> <img src="C:\Users\kanna\Downloads\twitter.png" alt="" width="20" height="20"></a>&nbsp;
+                    <a href="https://www.instagram.com/kannan_3757/" target="_blank"> <img src="C:\Users\kanna\Downloads\instagram.png" alt=""width="20" height="20"></a>&nbsp;
+                     <a href="https://www.facebook.com/kannan.selvam23/"target="_blank"><img src="C:\Users\kanna\Downloads\facebook.png" alt=""width="20" height="20"></a>&nbsp;
+                </div>
+            </div>
+
+
+<script>
+    document.getElementById("root").innerHTML=document.getElementById("home").innerHTML;
+
+document.getElementById("myBtn").addEventListener("click", function() {
+  document.getElementById("root").innerHTML=document.getElementById("home").innerHTML
+});
+document.getElementById("myBt").addEventListener("click", function() {
+   document.getElementById("root").innerHTML=document.getElementById("skills").innerHTML
+});
+document.getElementById("myB").addEventListener("click", function() {
+   document.getElementById("root").innerHTML=document.getElementById("project").innerHTML
+});
+document.getElementById("my").addEventListener("click", function() {
+   document.getElementById("root").innerHTML=document.getElementById("contact").innerHTML
+});
+document.getElementById("m").addEventListener("click", function() {
+   document.getElementById("root").innerHTML=document.getElementById("about").innerHTML
+});
+</script>
+
+</body>
+</main>
+</html>
