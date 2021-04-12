@@ -69,3 +69,10 @@ html{
     left: 0;
     
 }
+#about1{
+    font-style: italic;
+    font-size: xx-large;
+}
+#about2{
+    color: blue;
+}
